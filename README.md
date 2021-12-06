@@ -1,10 +1,10 @@
 # CsharpConsJob Library
-### CsharpConsJob is a lightweight C# Library written by Berka Ayowa that helps you create & shedule C# job
+### CsharpConsJob is a lightweight C# Library written by Berka Ayowa that helps you create & schedule C# jobs
 
-To use add the using CsharpConsJobLib.dll reference to you c# console project
+To use the library, just  add the using CsharpConsJobLib.dll reference to you c# console project
 
 ```html
-//Adding job in chain
+//Adding jobs in chain
 JobRegistry.Instance
 //Every second
 .Add<NotificationReport>("* * * ? * *")
@@ -18,10 +18,17 @@ JobRegistry.Instance
 #### Property
 | Name | Description | Example | 
 | --- | --- | --- |
-| Add | Add job class to the jobn registry .| JobRegistry.Instance.Add<NotificationReport>("* * * ? * *") 
+| Add | Add job class to the job to the registry .| JobRegistry.Instance.Add<NotificationReport>("* * * ? * *") 
 
 #### Events
 | Name | Description | Example | 
 | --- | --- | --- |
 | OnException | This event get triggered when any error occures| JobRegistry.OnException += OnException
 | OnLogEvent | This event get triggered to notify current job actions| JobRegistry.OnLogEvent += OnLog
+
+#### Action
+| Name | Description | Example | 
+| --- | --- | --- |
+| Run | This action starts the runing the jobs availe in the job registry| JobRegistry.Instance.Run();
+
+# More sample are under Example folder
