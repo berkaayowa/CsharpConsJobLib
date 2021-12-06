@@ -1,0 +1,11 @@
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\bin\Debug\CsharpConsJob.exe.config
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\bin\Debug\CsharpConsJob.exe
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\bin\Debug\CsharpConsJob.pdb
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\bin\Debug\CsharpConsJobLib.dll
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\bin\Debug\CsharpConsJobLib.pdb
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\bin\Debug\CsharpConsJobLib.dll.config
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\obj\Debug\CsharpConsJob.csproj.AssemblyReference.cache
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\obj\Debug\CsharpConsJob.csproj.CoreCompileInputs.cache
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\obj\Debug\CsharpConsJob.csproj.CopyComplete
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\obj\Debug\CsharpConsJob.exe
+C:\Users\Home\Source\Repos\berkaayowa\CsharpConsJob\CsharpConsJob\CsharpConsJob\obj\Debug\CsharpConsJob.pdb
