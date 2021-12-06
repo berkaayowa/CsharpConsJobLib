@@ -1,7 +1,7 @@
 # CsharpConsJob Library
 ### CsharpConsJob is a lightweight C# Library written by Berka Ayowa that helps you create & schedule C# jobs
 
-To use the library, just  add the using CsharpConsJobLib.dll reference to you c# console project
+To use the library, just  add the CsharpConsJobLib.dll reference to you c# console project
 
 ```html
 //Adding jobs in chain
