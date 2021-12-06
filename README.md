@@ -29,6 +29,6 @@ JobRegistry.Instance
 #### Action
 | Name | Description | Example | 
 | --- | --- | --- |
-| Run | This action starts the runing the jobs availe in the job registry| JobRegistry.Instance.Run();
+| Run | This action starts runing the jobs availe in the job registry| JobRegistry.Instance.Run();
 
 # More sample are under Example folder
