@@ -31,4 +31,4 @@ JobRegistry.Instance
 | --- | --- | --- |
 | Run | This action starts runing the jobs availe in the job registry| JobRegistry.Instance.Run();
 
-# More sample are under Example folder
+#### As amples project is Example folder 
