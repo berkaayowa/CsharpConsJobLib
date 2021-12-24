@@ -52,4 +52,4 @@ JobRegistry.Instance
 | Run | This action starts runing the jobs availe in the job registry| JobRegistry.Instance.Run();
 
 #### Sample project can be found in Example folder
->#### For generating more cron expresions  you can check [here](https://www.freeformatter.com/cron-expression-generator-quartz.html) or email us on ayowaberka@gmail.com
+>#### For generating more cron expresions  you can check [here](https://www.freeformatter.com/cron-expression-generator-quartz.html) or email us on ayowaberka@gmail.com for assistance
