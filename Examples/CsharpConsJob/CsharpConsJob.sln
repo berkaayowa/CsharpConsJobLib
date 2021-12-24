@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpConsJobLib", "..\CsharpConsJobLib\CsharpConsJobLib.csproj", "{CD2D606C-BB72-4627-A80B-DCD298324488}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpConsJob", "CsharpConsJob\CsharpConsJob.csproj", "{D9C75043-C6A9-4ABF-A734-5C5C030AE781}"
 EndProject
 Global
@@ -17,18 +15,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Debug|x64.Build.0 = Debug|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Debug|x86.Build.0 = Debug|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Release|x64.ActiveCfg = Release|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Release|x64.Build.0 = Release|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Release|x86.ActiveCfg = Release|Any CPU
-		{CD2D606C-BB72-4627-A80B-DCD298324488}.Release|x86.Build.0 = Release|Any CPU
 		{D9C75043-C6A9-4ABF-A734-5C5C030AE781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D9C75043-C6A9-4ABF-A734-5C5C030AE781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9C75043-C6A9-4ABF-A734-5C5C030AE781}.Debug|x64.ActiveCfg = Debug|Any CPU
