@@ -5,34 +5,51 @@ To use the library, just  add the CsharpConsJobLib.dll and CsharpCron.dll refere
 >##We recommended to install the library from Nuget, search CsharpConsJobLib from nuget and install.
 
 ```html
-//Setting events
-JobRegistry.OnException += OnException;
-JobRegistry.OnLogEvent += OnLog;
+static void Main(string[] args)
+{
 
-//Adding job in chain
-JobRegistry.Instance
-//Every second
-.Add<NotificationReport>("* * * ? * *")
-//Every 30 seconds
-.Add<NotificationReport>("*/30 * * ? * * *")
-//Every mimutes
-.Add<DaillyReport>("0 * * ? * *")
-//Every x minutes, example 2 minutes
-.Add<BalanceStatement>("0 */2 * ? * * *")
-//Every Hour
-.Add<BalanceStatement>("0 0 * ? * *")
-////Every x hours, example  3 hours
-.Add<BalanceStatement>("0 0 */3 ? * * *")
-////Every day at x time, example every day at 9:35
-.Add<NotificationReport>("0 0 9:35 ? * * *")
-//Add a list of jobs
-.Add("0 0 9:50 ? * * *", new List<Job>()
-    {
-        new NotificationReport(),
-        new BalanceStatement()
-    }
-)
-.Run();
+    //Setting events
+    JobRegistry.OnException += OnException;
+    JobRegistry.OnLogEvent += OnLog;
+
+    //Adding job in chain
+    JobRegistry.Instance
+    //Every second
+    .Add<NotificationReport>("* * * ? * *")
+    //Every 30 seconds
+    .Add<NotificationReport>("*/30 * * ? * * *")
+    //Every mimutes
+    .Add<DaillyReport>("0 * * ? * *")
+    //Every x minutes, example 2 minutes
+    .Add<BalanceStatement>("0 */2 * ? * * *")
+    //Every Hour
+    .Add<BalanceStatement>("0 0 * ? * *")
+    ////Every x hours, example  3 hours
+    .Add<BalanceStatement>("0 0 */3 ? * * *")
+    ////Every day at x time, example every day at 9:35
+    .Add<NotificationReport>("0 0 9:35 ? * * *")
+    //Add a list of jobs
+    .Add("0 0 9:50 ? * * *", new List<Job>()
+        {
+            new NotificationReport(),
+            new BalanceStatement()
+        }
+    )
+    .Run();
+
+}
+
+public static void OnException(object source, Exception exception)
+{
+    //Disaply error if any occures
+    Console.WriteLine(DateTime.Now.ToString() + " - Exception - " + exception.Message);
+}
+
+public static void OnLog(object obj)
+{
+    //You can alos log this to a file or just onscreen log
+    Console.WriteLine(DateTime.Now.ToString() + " - " + obj.ToString());
+}
 ```
 
 #### Property
@@ -51,5 +68,7 @@ JobRegistry.Instance
 | --- | --- | --- |
 | Run | This action starts runing the jobs availe in the job registry| JobRegistry.Instance.Run();
 
-#### Sample project can be found in Example folder
->#### For generating more cron expresions  you can check [here](https://www.freeformatter.com/cron-expression-generator-quartz.html) or email us on ayowaberka@gmail.com for assistance
+>#### Sample project can be found in Example folder
+>#### For generating more cron expresions  you can check [here](https://www.freeformatter.com/cron-expression-generator-quartz.html) or email us on ayowaberka@gmail.com for assistance or just to say hello :)
+
+>#### Click [here](https://www.paypal.com/donate/?hosted_button_id=3EUXREY22UMGQ) to donate for supporting us to keep improving this library  

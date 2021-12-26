@@ -34,11 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CsharpConsJobLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Library\CsharpConsJobLib.dll</HintPath>
+      <HintPath>..\packages\CsharpConsJobLib.1.0.2\lib\net45\CsharpConsJobLib.dll</HintPath>
     </Reference>
-    <Reference Include="CsharpCron">
-      <HintPath>..\..\..\Library\CsharpCron.dll</HintPath>
+    <Reference Include="CsharpCron, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsharpConsJobLib.1.0.2\lib\net45\CsharpCron.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
