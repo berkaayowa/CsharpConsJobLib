@@ -72,19 +72,19 @@ static void Main(string[] args)
 
 public static void OnException(object source, Exception exception)
 {
-    //Disaply error if any occures
+    //Display error if any occures
     Console.WriteLine(DateTime.Now.ToString() + " - Exception - " + exception.Message);
 }
 
 public static void OnLog(object obj)
 {
-    //You can alos log this to a file or just onscreen log
+    //You can also log this to a file or just onscreen log
     Console.WriteLine(DateTime.Now.ToString() + " - " + obj.ToString());
 }
 
 public static void OnJobLog(LogType logType, object obj)
 {
-    //You can alos log this to a file or just onscreen log
+    //You can also log this to a file or just onscreen log
     Console.WriteLine(DateTime.Now.ToString() + " - " + obj.ToString());
 }
 ```
