@@ -4,7 +4,7 @@
 >Latest version 1.0.3
 
 To use the library, just  add the CsharpConsJobLib.dll and CsharpCron.dll references to you c# console project, they are located under Library folder
->##We recommended to install the latest library version 1.0.3 from Nuget, search CsharpConsJobLib from nuget and install.
+>##We recommend installing the latest library version 1.0.3 from Nuget, search CsharpConsJobLib from nuget and install.
 
 ```html
 static void Main(string[] args)
