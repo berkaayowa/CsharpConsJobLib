@@ -1,10 +1,12 @@
 # CsharpConsJob Library
 ### CsharpConsJob is a lightweight C# Library written by Berka Ayowa that helps you create & schedule C# jobs
 
->Latest version 1.0.3
+>Latest version 1.0.4
 
 To use the library, just  add the CsharpConsJobLib.dll and CsharpCron.dll references to you c# console project, they are located under Library folder
->##We recommend installing the latest library version 1.0.3 from Nuget, search CsharpConsJobLib from nuget and install.
+>##We recommend installing the latest library version 1.0.4 from Nuget, search CsharpConsJobLib from nuget and install.
+>Nuget Link https://www.nuget.org/packages/CsharpConsJobLib [here](https://www.nuget.org/packages/CsharpConsJobLib/)
+
 
 ```html
 static void Main(string[] args)
@@ -45,8 +47,8 @@ static void Main(string[] args)
     //Every day at x hours e.g Every at 00:00
     //.Add<NotificationReport>("0 0 9 ? * * *")
 
-    //Every day at x time e.g Every at 00:30
-    //.Add<NotificationReport>("0 0 9:35 ? * * *")
+    //Every day at x time e.g Every at 00:1
+    //.Add<NotificationReport>("0 0 00:1 ? * * *")
 
     //Add a list of jobs , this functionality is available in version 1.0.2 up
     .Add("0 0 9:50 ? * * *", new List<Job>(){ new NotificationReport(), new BalanceStatement()})
@@ -103,7 +105,7 @@ public static void OnJobLog(LogType logType, object obj)
 #### Action
 | Name | Description | Example | 
 | --- | --- | --- |
-| Run | This action starts runing the jobs availe in the job registry| JobRegistry.Instance.Run();
+| Run | This action starts runing the jobs available in the job registry| JobRegistry.Instance.Run();
 
 >#### Sample project can be found in Example folder
 
